@@ -1,5 +1,5 @@
 
-var Server = 'http://localhost/lts/json'
+var Server = 'http://localhost/Legacy-Tracking-System/json';
 
 /**
  * @desc select all tasks and other attributes on loading the page
@@ -60,7 +60,7 @@ function getalltasklist()
 
 	            	}	
 	            	  html+='<span  class="statustask">'+status+'</span><span  class="totaldependency">'+totaldependency+'</span><span  class="totaldependencydone">'+totaldependencydone+'</span></span><span  class="totaldependencycomplete">'+totaldependencycomplete+'</span>\
-	            	  <p style="float:right" data-placement="top" data-toggle="tooltip" title="" data-original-title="Edit"><button class="btn btn-primary btn-xs edittask" data-id='+id+' data-title="Edit" data-toggle="modal" data-target="#edit"><span class="glyphicon glyphicon-pencil"></span></button></p>\
+	            	  <p style="float:right" data-placement="top" data-toggle="tooltip" title="" data-original-title="Edit"><button class="btn btn-primary btn-xs edittask" data-id='+id+' data-title="Edit" data-toggle="modal" title="edit task" data-target="#edit"><span class="glyphicon glyphicon-pencil"></span></button></p>\
 	            	</li>';
                     
                  }
